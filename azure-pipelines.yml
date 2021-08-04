@@ -7,8 +7,7 @@ trigger:
 - main
 - master
 
-pool:
-  vmImage: 'ubuntu-18.04'
+pool: default
 
 # variables:
 #   - group: 'test-group'
