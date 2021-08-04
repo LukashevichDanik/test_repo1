@@ -9,6 +9,7 @@ trigger:
 
 pool: default
 
+
 # variables:
 #   - group: 'test-group'
 
