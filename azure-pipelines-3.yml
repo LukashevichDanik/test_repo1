@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: deffault
 
 steps:
 - script: echo Hello, world!
