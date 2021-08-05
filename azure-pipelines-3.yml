@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: deffault
+pool: default
 
 steps:
 - script: echo Hello, world!
