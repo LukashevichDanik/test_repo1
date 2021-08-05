@@ -5,6 +5,8 @@
 
 trigger:
 - main
+- master
+- refs/heads/develop
 
 pool: default
 
