@@ -5,13 +5,12 @@
 
 trigger:
 - main
-- master
 
-pool:
-  vmImage: 'ubuntu-18.04'
+pr: 
+- main
 
-# variables:
-#   - group: 'test-group'
+pool: default
+
 
 jobs:
 - job: MyJob
