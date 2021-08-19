@@ -5,11 +5,12 @@
 
 trigger:
 - main
+
+pr: 
+- main
+
 pool: default
 
-
-# variables:
-#   - group: 'test-group'
 
 jobs:
 - job: MyJob
