@@ -6,8 +6,15 @@
 trigger:
 - main
 
-pr: 
-- main
+pr:
+ branches:
+   include:
+     - main
+ paths:
+   include:
+     - code
+   exclude:
+     - docs
 
 pool: default
 
