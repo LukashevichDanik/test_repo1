@@ -6,8 +6,8 @@
 trigger:
 - main
 
-variables:
-- group: "test"
+# variables:
+# - group: "test"
 
 pr:
  branches:
@@ -19,7 +19,7 @@ pr:
    exclude:
      - docs
 
-pool: default
+pool: 'azure pipelines'
 
 
 jobs:
