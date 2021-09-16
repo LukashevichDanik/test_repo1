@@ -19,7 +19,7 @@ pr:
    exclude:
      - docs
 
-pool: 'azure pipelines'
+pool: default
 
 
 jobs:
