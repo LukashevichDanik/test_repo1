@@ -19,7 +19,9 @@ pr:
    exclude:
      - docs
 
-pool: default
+# pool: default
+pool:
+  vmImage: ubuntu-latest
 
 
 jobs:
