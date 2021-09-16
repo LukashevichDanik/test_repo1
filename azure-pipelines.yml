@@ -6,6 +6,9 @@
 trigger:
 - main
 
+variables:
+- group: "test"
+
 pr:
  branches:
    include:
@@ -16,7 +19,7 @@ pr:
    exclude:
      - docs
 
-pool: test
+pool: default
 
 
 jobs:
