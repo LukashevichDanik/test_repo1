@@ -5,11 +5,24 @@
 
 trigger:
 - main
-pool: default
-
 
 # variables:
-#   - group: 'test-group'
+# - group: "test"
+
+pr:
+ branches:
+   include:
+     - main
+ paths:
+   include:
+     - code
+   exclude:
+     - docs
+
+# pool: default
+pool:
+  vmImage: ubuntu-latest
+
 
 jobs:
 - job: MyJob
