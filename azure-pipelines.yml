@@ -9,19 +9,19 @@ trigger:
 # variables:
 # - group: "test"
 
-pr:
- branches:
-   include:
-     - main
- paths:
-   include:
-     - code
-   exclude:
-     - docs
+# pr:
+#  branches:
+#    include:
+#      - main
+#  paths:
+#    include:
+#      - code
+#    exclude:
+#      - docs
 
-# pool: default
-pool:
-  vmImage: ubuntu-latest
+pool: default
+# pool:
+#   vmImage: ubuntu-latest
 
 steps:
   - script: echo 1
